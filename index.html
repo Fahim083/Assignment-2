@@ -4,11 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <link href="./output.css" rel="stylesheet" />
-    <title>Document</title>
+    <!-- <link href="./output.css" rel="stylesheet" /> -->
+         <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <title>Assignment</title>
   </head>
   <body>
-    <header class="flex flex-row mx-4 mt-2 sm:mx-20 sm:mt-7 justify-between items-center ">
+    <header class="flex flex-row mx-4 mt-2 sm:mx-36 sm:mt-8 justify-between items-center ">
       <img src="./assets/logo.png" alt="Logo" class="w-16 h-10 sm:w-40 sm:h-20" />
       <div class="flex flex-row gap-13">
           <div class="hidden sm:flex flex-row gap-13 text-lg text-gray-500">
@@ -22,7 +24,18 @@
             </div>
       </div>
     </header>
-    <main class="mx-20">
+
+    <main class="mx-4 sm:mx-36">
+        <div class="hero-banner mt-7 sm:mt-36 flex flex-col-reverse sm:flex-row items-end gap-7">
+            <div class="sm:w-[570px] space-y-3 sm:space-y-3">
+                <h1 class="text-2xl/9 sm:text-6xl/20 font-bold" >ALWAYS <span class="text-[rgb(233,90,8)]">REFRESH FLOWERS</span></h1>
+                <p class="text-[14px]/5 sm:text-2xl/8 text-gray-400 text-start">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+            </div>
+            <div class="w-[300px] sm:w-[570px] sm:border sm:border-dashed  border-gray-400">
+                <img src="./assets/hero-flower.png" alt="Hero-flower">
+            </div>
+
+        </div>
 
     </main>
   </body>

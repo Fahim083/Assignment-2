@@ -2,3 +2,7 @@
     margin: 0px;
     padding: 0px;
 } */
+*{
+    background: rgb(245, 248, 255);
+}
+@import "tailwindcss";
